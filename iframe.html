@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+</head>
+<body>
+    <header>
+        <h1>Iframe in Html</h1>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html" target="_top" title="Home">Home</a></li>
+          <li><a href="drag.html" target="_top" title="images sample">drag</a></li>
+          <li><a href="#">iframe</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+         <form>
+           <input type="search" name="q" placeholder="Search query">
+           <input type="submit" value="Go!">
+         </form>
+    </nav>
+
+    <main>
+        <iframe src="https://developer.mozilla.org/en-US/docs/Glossary"
+            width="100%" height="500" frameborder="0"
+            allowfullscreen sandbox>
+            <p> 
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+                Fallback link for browsers that don't support iframes
+                </a>
+            </p>
+        </iframe>
+    </main>
+</body>
+</html>
